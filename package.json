@@ -1,0 +1,9 @@
+{
+  "name": "github-mcp-test",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Fixture manifest so Dependabot and code search have a target.",
+  "dependencies": {
+    "lodash": "4.17.15"
+  }
+}

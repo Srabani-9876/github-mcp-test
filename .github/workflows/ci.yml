@@ -1,0 +1,13 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fixture step
+        run: echo "MAIA GitHub MCP CI fixture"
+      - name: Intentional failure for log triage
+        run: echo "intentional failure for GH-E2E-007" && exit 1

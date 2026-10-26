@@ -1,0 +1,11 @@
+name: Lint
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fixture lint
+        run: echo "MAIA GitHub MCP lint fixture passed"
