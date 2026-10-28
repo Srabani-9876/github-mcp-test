@@ -2,3 +2,5 @@
 export function login(username: string): string {
   return `session for ${username}`;
 }
+
+// Retry once when the refresh call exceeds the timeout.
